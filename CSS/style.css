@@ -1,0 +1,517 @@
+*{
+    margin:0; padding:0;
+}
+body{
+    /* background-image: url('../images.html/foodbg.jpg'); */
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 90vh;
+    /* z-index: 1; */
+
+}
+
+
+
+.header {
+    background-color: bisque;
+    background: url(../images.html/food\ court.avif);
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    position: fixed;
+/* background-image: linear-gradient(red , black , white)  ; */
+    background-blend-mode:lighten;
+}
+nav>img{
+    width:60px;
+    border-radius: 50%;
+    height:60px;
+}
+nav{
+    position: fixed;
+    margin-top: -0px;
+    padding: 0;
+}
+
+.myhead{
+    margin-left: 50px;
+    margin: 10px;
+    width:20%;
+    color:red;
+    font-style: italic;
+    font-size:40px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px rgb(116, 98, 98) ;
+    
+}
+.myhead>span{
+    font-family:fantasy;
+}
+nav{
+    width: 100%;
+    height:10vh;
+    background-color: rgb(63, 52, 52);
+    /* float: left; */
+    display: flex;
+    /* position: fixed; */
+}
+.navitems>a{
+margin:20px;
+padding:10px;
+color: rgb(228, 219, 218);
+text-decoration: none;
+margin-top: 60px;
+font-weight: 550;
+font-size: 20px;
+
+}
+.navitems{
+    margin-top: 10px;
+margin:15px
+    width:50%;
+    padding: 15px;
+    text-align: center;
+    
+}
+.icons{
+    width: 30%;
+    text-align: center;
+    
+}
+.navitems a:hover{
+    background-color:red;
+    color: black;
+    padding:5px;
+    border:5px solid wheat;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius:10px ;
+}
+
+.icons>ul{
+    list-style-type: none;
+    margin: 20px;
+    color: rgb(228, 219, 218);
+    padding:10px;
+    font-size: 20px;
+    display: flex;
+    padding:10px;
+    /* margin-right: -5px; */
+    
+}
+.icons .drop{
+  list-style-type: none;
+  display: none;
+  visibility: hidden;
+
+}
+.icons li{
+  display: inline;
+  margin-left: 50px;
+}
+.dd:hover{
+  visibility: visible;
+  display: block;
+}
+.icons li:hover{
+    background-color:rgb(218, 24, 24);
+    color: black;
+    margin -left:10px;
+    margin-top:-15px;
+    padding: 10px;
+    border:5px solid wheat;
+    /* padding:10px; */
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius:10px ;
+
+}
+
+.content{
+    margin-top: 170px;
+    text-align: center;
+    /* margin-left: 300px; */
+    color:rgb(255, 255, 255); 
+    font-size: 27px;
+    float: left;
+    margin-left:  100px;
+    /* margin-left:100px; */
+    
+}
+.content span{
+    color: red;
+}
+.content>p{
+    text-align: left;
+    /* margin-left:250px; */
+    font-size: 20px;
+    margin-top:0px;
+    color: rgb(247, 247, 234);
+
+}
+ .content button{
+    margin-right:330px;
+    padding:10px;
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    color: beige;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+
+ }
+ .content button:hover{
+    background-color: antiquewhite;
+    color: rgb(209, 14, 14);
+ }
+ .footer{
+    display: flex;
+    float: left;
+    list-style-type:none;
+    margin-top: 500px;
+    /* padding:30px; */
+    position: static;
+line-height: 30px;
+background-color: rgb(230, 73, 73);
+width: 100%;
+ }
+ .quick , .connect , .support , .contact{
+    padding: 20px;
+    margin: 20px;
+ }
+
+
+
+ .offback{
+    width:100%;
+    /* background-color: rgb(77, 19, 8); */
+    height:400px;
+    /* height: 5ovh; */
+    /* margin-top: 20px; */
+    /* margin-left: 10px; */
+    
+ }
+ .offback .Hurry{
+    text-align: center;
+    color: red;
+ }
+ .head h2{
+    margin: 20px;
+    color:rgb(236, 12, 12);
+    
+ }
+
+ .menucnt {
+    padding: 20px;
+margin-left: -280px;
+    margin-top: 300px;
+ }
+ .menucnt span{
+    font-size: 1.5rem;
+    color:chocolate
+ }
+ .offback .offer{
+    /* margin-left: 20px; */
+    display: flex;
+    float:left;
+ }
+ .offer img{
+   width: 250px;
+   height: 230px;
+   padding: 50px;
+ }
+ .offer img:hover{
+  transition: ease-in ;
+  transition-duration:0s;
+  transition-property:270px;
+    cursor: pointer;
+ }
+ 
+ .menu h2{
+    margin-top: 220px;
+    /* text-align: center; */
+    margin-left: -190px;
+    color: rgb(248, 228, 228);
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+ }
+ .menu h2>button{
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight:600 ;
+    
+ }
+ .menu button:hover{
+    background-color: bisque;
+    color: red;
+    cursor: pointer;
+ }
+ .mi img{
+    width:300px;
+    height:200px;
+
+    display: flex;
+    float: left;
+ }
+ 
+ .menu h2>span{
+    font-size: 15px;
+    color: rgb(231, 231, 44);
+ }
+ 
+ .menu .mi{
+    background-color: rgb(14, 12, 12);
+    border: 2px solid  yellow;
+    width:300px;
+    height:320px;
+    margin:50px;
+    display: flex;
+    float: left;
+    
+ }
+ 
+  .aboutback{
+    background-image: url(../images.html/foodbg.jpg), linear-gradient( rgb(117, 22, 15),rgb(130, 155, 130));
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 30vh;
+    background-blend-mode: luminosity;
+  }
+  .abtcnt{
+    text-align: center;
+    /* font-style: italic; */
+    color: rgb(250, 248, 245);
+    padding-top: 100px;
+    font-size: 20px;
+    /* margin-top: 100px; */
+  }
+  .aboutback span{
+    font-size: 10px;
+    font-weight: 200;
+    
+  }
+  .abthd{
+    text-align: center;
+    color: red;
+    margin-top: 50px;
+  }
+.abtimg img {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+}
+.abtimg1 img{
+  width:100%;
+  
+
+}
+.abtimg {
+    display: flex; 
+     float: left;
+    
+}
+.abtimg span{
+    font-size: 20px;
+    font-weight: 600;
+    
+    /* padding: 10px; */
+}
+.abtimg>p{
+    
+    padding: 15px;
+}
+.abtimg2>p{
+  padding:15px;
+}
+.since{
+    font-style: italic;
+    color: red;
+    
+}
+.contactus{
+    display: flex;
+    margin: auto;
+    /* padding: 30px; */
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(221, 189, 189);
+    /* text-align: center; */
+    /* float: ; */
+
+}
+.contactus h2{
+    margin: 20px;
+}
+.contactus i{
+    background-color: red;
+    color: beige;
+    width:40px;
+    height:30px;
+    border-radius: 50%;
+padding-top: 10px;
+}
+
+.address , .phone , .email{
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+@media(max-width:991px){
+  .header img{
+    width:50px;
+    height:50px
+  } 
+  .myhead{
+    letter-spacing:0px ;
+    font-size: 30px;
+  }
+  .navitems a{
+    font-size: medium;
+    /* padding-left: -60px; */
+    margin: auto;
+    
+  }
+  .icons i{
+    display: flex;
+    float: left;
+
+    font-size: 15px;
+    padding: 10px;
+  }
+  .navitems {
+    margin-left:-20px
+  }
+  .offer img{
+    width:150px;
+    height:150px;
+  }
+  .offer img:hover{
+    width:160px;
+    height:160px;
+  }
+  
+  .menucnt span{
+    font-size: 20px;
+    padding: 20px;
+    
+  }
+  .menucnt h1{
+    font-size: 20px;
+margin-left: 20px;
+  }
+}
+@media (max-width: 768px){
+.icons i{
+margin-left: -1px;
+}
+.connect p{
+  overflow: auto;
+
+}
+
+}
+@media (max-width: 650px){
+.myhead {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+  .navitems a{
+    font-weight: 100;
+    font-size: x-small;
+    margin: -10px;
+    padding: 15px;
+    display: flex;
+    float: left;
+    margin-top: -25px;
+  }
+  .navitems{
+    display: flex;
+  }
+  .icons{
+    padding-left: -20px;
+    margin-left:-10px
+  }
+  .icons li{
+    font-size: ;
+    /* padding-left: -20px; */
+    margin:-5px ;
+    margin-top: -25px;
+  }
+  .icons i{
+    font-size: x-small;
+
+  }
+  .navitems a:hover{
+    border: none;
+    padding:0px;
+    /* margin-left: 15px; */
+    margin-top: -1px;
+    margin:0px;
+color: antiquewhite;
+    background-color: transparent;
+  }
+  .icons li:hover{
+    background: none;
+    padding:none;
+    border: none;
+    margin-right: -4px;
+    margin-top:-35px;
+  }
+  nav{
+    height: 40px;
+  }
+  .header img{
+    width:50px;
+    height:40px
+  }
+ .content h2{
+font-size: 25px;
+margin-left: -160px;
+ } 
+.content button{
+  width:100px
+}
+.header{
+  background-size: ;
+}
+.footer{
+  width: 100%;
+  display: block;
+  text-align: center;
+  /* background-position: contain; */
+  /* background-size: cover; */
+}
+.abtimg img{
+  width:350px;
+  /* margin: auto; */
+  align-items: center;
+  padding: 20px;
+
+}
+.abtimg{
+  display: block;
+}
+.abtimg1 img{
+  width: 100%
+}
+.contactus{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+  
+
+}
